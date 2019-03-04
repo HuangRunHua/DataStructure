@@ -32,11 +32,8 @@ void list_init(List *list, void (*destroy)(void *data)) {
 
 /**
  * list_destroy 销毁链表
- *
  * 初始化时链表不为NULL，则当每一个元素被移除时都将调用list_destroy一次
- *
  * list_destroy运行复杂度为O(n), n为链表g元素个数
- *
  */
 void list_destroy(List *list) {
     void *data;
