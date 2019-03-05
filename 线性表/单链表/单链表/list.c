@@ -50,7 +50,11 @@ void list_destroy(List *list) {
     return;
 }
 
-/* list_ins_next */
+
+/**
+ * list_ins_next
+ * 将一个元素插入到由element参数所指定的元素后面
+ */
 int list_ins_next(List *list, ListElmt *element, const void *data) {
     ListElmt *new_element;
     
@@ -83,4 +87,46 @@ int list_ins_next(List *list, ListElmt *element, const void *data) {
     return 0;
 }
 
+/**
+ * list_rem_next
+ * 移除由element所指定的元素后面的那个结点
+ */
+int list_rem_next(List *list, ListElmt *element, void **data) {
+    ListElmt *old_element;
+    /* 空的链表不操作 */
+    if (list_size(list) == 0) {
+        return -1;
+    }
+    
+    /* 非空链表的移除操作 */
+    if (element == NULL) {
+        /* 解决头部结点的问题 */
+        *data = list->head->data;
+        old_element = list->head;
+        list->head = list->head->next;
+        
+        if (list_size(list) == 1) {
+            list->tail = NULL;
+        }
+    } else {
+        /* 解决其余地方 */
+        if (element->next == NULL) {
+            return -1;
+        }
+        *data = element->next->data;
+        old_element = element->next;
+        element->next = element->next->next;
+        
+        if (element->next == NULL) {
+            list->tail = element;
+        }
+    }
+    
+    /* 释放抽象数据类型分配的存储空间 */
+    free(old_element);
+    
+    /* 调整链表大小 */
+    list->size--;
+    return 0;
+}
 
