@@ -12,7 +12,7 @@
 #include<stdlib.h>
 
 /**
- * Define a structure for linked list elements.
+ * 定义链表元素的结构。
  */
 typedef struct ListElmt_ {
     void *data;
@@ -20,7 +20,7 @@ typedef struct ListElmt_ {
 } ListElmt;
 
 /**
- * Define a structure for linked lists.
+ * 定义链接列表的结构。
  */
 typedef struct List_ {
     int size; // 表示链表中元素的个数
@@ -31,7 +31,7 @@ typedef struct List_ {
 } List;
 
 /**
- * Public Interface
+ * 公共接口
  */
 void list_init(List *list, void (*destroy)(void *data));
 void list_destroy(List *list);
