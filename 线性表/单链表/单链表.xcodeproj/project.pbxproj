@@ -24,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04C17C87222E99FE008B5B1A /* 单链表接口的定义.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "单链表接口的定义.md"; sourceTree = "<group>"; };
 		04DF8BB9222D466800BA3987 /* 单链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "单链表"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DF8BBC222D466800BA3987 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		04DF8BC3222D46AD00BA3987 /* list.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
@@ -44,6 +45,7 @@
 		04DF8BB0222D466800BA3987 = {
 			isa = PBXGroup;
 			children = (
+				04C17C87222E99FE008B5B1A /* 单链表接口的定义.md */,
 				04DF8BBB222D466800BA3987 /* 单链表 */,
 				04DF8BBA222D466800BA3987 /* Products */,
 			);
