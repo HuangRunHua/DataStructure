@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04C17C95222E9EAF008B5B1A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04C17C94222E9EAF008B5B1A /* main.c */; };
+		04C17C9D222EA20D008B5B1A /* dlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 04C17C9C222EA20D008B5B1A /* dlist.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		04C17C91222E9EAF008B5B1A /* 双向链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "双向链表"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C17C94222E9EAF008B5B1A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		04C17C9B222E9F14008B5B1A /* dlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dlist.h; sourceTree = "<group>"; };
+		04C17C9C222EA20D008B5B1A /* dlist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dlist.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				04C17C94222E9EAF008B5B1A /* main.c */,
+				04C17C9B222E9F14008B5B1A /* dlist.h */,
+				04C17C9C222EA20D008B5B1A /* dlist.c */,
 			);
 			path = "双向链表";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C17C9D222EA20D008B5B1A /* dlist.c in Sources */,
 				04C17C95222E9EAF008B5B1A /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
