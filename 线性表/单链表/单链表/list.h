@@ -14,7 +14,8 @@
 /**
  * 定义链表元素的结构。
  */
-typedef struct ListElmt_ {
+typedef struct ListElmt_
+{
     void *data;
     struct ListElmt_ *next;
 } ListElmt;
@@ -22,7 +23,8 @@ typedef struct ListElmt_ {
 /**
  * 定义链接列表的结构。
  */
-typedef struct List_ {
+typedef struct List_
+{
     int size; // 表示链表中元素的个数
     int (*match)(const void *key1, const void *key2);
     void (*destroy)(void *data); // 传递给list_init的析构函数
