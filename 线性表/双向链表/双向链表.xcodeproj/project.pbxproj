@@ -28,6 +28,7 @@
 		04C17C94222E9EAF008B5B1A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		04C17C9B222E9F14008B5B1A /* dlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dlist.h; sourceTree = "<group>"; };
 		04C17C9C222EA20D008B5B1A /* dlist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dlist.c; sourceTree = "<group>"; };
+		04D66D0B2230EFBB006FADE0 /* 双向链表接口的定义.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "双向链表接口的定义.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		04C17C88222E9EAF008B5B1A = {
 			isa = PBXGroup;
 			children = (
+				04D66D0B2230EFBB006FADE0 /* 双向链表接口的定义.md */,
 				04C17C93222E9EAF008B5B1A /* 双向链表 */,
 				04C17C92222E9EAF008B5B1A /* Products */,
 			);
