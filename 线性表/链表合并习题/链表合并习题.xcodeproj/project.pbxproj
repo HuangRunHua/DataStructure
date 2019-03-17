@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041A1056223E614400A90651 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 041A1055223E614400A90651 /* list.c */; };
 		042B5C1A223E4491007B1A2E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 042B5C19223E4491007B1A2E /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		041A1053223E611400A90651 /* 链表练习题.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "链表练习题.md"; sourceTree = "<group>"; };
+		041A1054223E614400A90651 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		041A1055223E614400A90651 /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
 		042B5C16223E4491007B1A2E /* 链表合并习题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "链表合并习题"; sourceTree = BUILT_PRODUCTS_DIR; };
 		042B5C19223E4491007B1A2E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +45,7 @@
 		042B5C0D223E4491007B1A2E = {
 			isa = PBXGroup;
 			children = (
+				041A1053223E611400A90651 /* 链表练习题.md */,
 				042B5C18223E4491007B1A2E /* 链表合并习题 */,
 				042B5C17223E4491007B1A2E /* Products */,
 			);
@@ -58,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				042B5C19223E4491007B1A2E /* main.c */,
+				041A1054223E614400A90651 /* list.h */,
+				041A1055223E614400A90651 /* list.c */,
 			);
 			path = "链表合并习题";
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				042B5C1A223E4491007B1A2E /* main.c in Sources */,
+				041A1056223E614400A90651 /* list.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
