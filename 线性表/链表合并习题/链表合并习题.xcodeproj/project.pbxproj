@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		042B5C03223DDF62007B1A2E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 042B5C02223DDF62007B1A2E /* main.c */; };
-		042B5C0C223DE3FD007B1A2E /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 042B5C0B223DE3FD007B1A2E /* list.c */; };
+		042B5C1A223E4491007B1A2E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 042B5C19223E4491007B1A2E /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		042B5BFD223DDF62007B1A2E /* CopyFiles */ = {
+		042B5C14223E4491007B1A2E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,15 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		042B5BFF223DDF62007B1A2E /* LinkListExercises */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkListExercises; sourceTree = BUILT_PRODUCTS_DIR; };
-		042B5C02223DDF62007B1A2E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		042B5C09223DDF8E007B1A2E /* 链表课下作业.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "链表课下作业.md"; sourceTree = "<group>"; };
-		042B5C0A223DE3FD007B1A2E /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
-		042B5C0B223DE3FD007B1A2E /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		042B5C16223E4491007B1A2E /* 链表合并习题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "链表合并习题"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042B5C19223E4491007B1A2E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		042B5BFC223DDF62007B1A2E /* Frameworks */ = {
+		042B5C13223E4491007B1A2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,98 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		042B5BF6223DDF62007B1A2E = {
+		042B5C0D223E4491007B1A2E = {
 			isa = PBXGroup;
 			children = (
-				042B5C09223DDF8E007B1A2E /* 链表课下作业.md */,
-				042B5C01223DDF62007B1A2E /* LinkListExercises */,
-				042B5C00223DDF62007B1A2E /* Products */,
+				042B5C18223E4491007B1A2E /* 链表合并习题 */,
+				042B5C17223E4491007B1A2E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		042B5C00223DDF62007B1A2E /* Products */ = {
+		042B5C17223E4491007B1A2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				042B5BFF223DDF62007B1A2E /* LinkListExercises */,
+				042B5C16223E4491007B1A2E /* 链表合并习题 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		042B5C01223DDF62007B1A2E /* LinkListExercises */ = {
+		042B5C18223E4491007B1A2E /* 链表合并习题 */ = {
 			isa = PBXGroup;
 			children = (
-				042B5C02223DDF62007B1A2E /* main.c */,
-				042B5C0A223DE3FD007B1A2E /* list.h */,
-				042B5C0B223DE3FD007B1A2E /* list.c */,
+				042B5C19223E4491007B1A2E /* main.c */,
 			);
-			path = LinkListExercises;
+			path = "链表合并习题";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		042B5BFE223DDF62007B1A2E /* LinkListExercises */ = {
+		042B5C15223E4491007B1A2E /* 链表合并习题 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 042B5C06223DDF62007B1A2E /* Build configuration list for PBXNativeTarget "LinkListExercises" */;
+			buildConfigurationList = 042B5C1D223E4491007B1A2E /* Build configuration list for PBXNativeTarget "链表合并习题" */;
 			buildPhases = (
-				042B5BFB223DDF62007B1A2E /* Sources */,
-				042B5BFC223DDF62007B1A2E /* Frameworks */,
-				042B5BFD223DDF62007B1A2E /* CopyFiles */,
+				042B5C12223E4491007B1A2E /* Sources */,
+				042B5C13223E4491007B1A2E /* Frameworks */,
+				042B5C14223E4491007B1A2E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LinkListExercises;
-			productName = LinkListExercises;
-			productReference = 042B5BFF223DDF62007B1A2E /* LinkListExercises */;
+			name = "链表合并习题";
+			productName = "链表合并习题";
+			productReference = 042B5C16223E4491007B1A2E /* 链表合并习题 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		042B5BF7223DDF62007B1A2E /* Project object */ = {
+		042B5C0E223E4491007B1A2E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "com.icloud@h76joker";
 				TargetAttributes = {
-					042B5BFE223DDF62007B1A2E = {
+					042B5C15223E4491007B1A2E = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 042B5BFA223DDF62007B1A2E /* Build configuration list for PBXProject "LinkListExercises" */;
+			buildConfigurationList = 042B5C11223E4491007B1A2E /* Build configuration list for PBXProject "链表合并习题" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 042B5BF6223DDF62007B1A2E;
-			productRefGroup = 042B5C00223DDF62007B1A2E /* Products */;
+			mainGroup = 042B5C0D223E4491007B1A2E;
+			productRefGroup = 042B5C17223E4491007B1A2E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				042B5BFE223DDF62007B1A2E /* LinkListExercises */,
+				042B5C15223E4491007B1A2E /* 链表合并习题 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		042B5BFB223DDF62007B1A2E /* Sources */ = {
+		042B5C12223E4491007B1A2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042B5C03223DDF62007B1A2E /* main.c in Sources */,
-				042B5C0C223DE3FD007B1A2E /* list.c in Sources */,
+				042B5C1A223E4491007B1A2E /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		042B5C04223DDF62007B1A2E /* Debug */ = {
+		042B5C1B223E4491007B1A2E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		042B5C05223DDF62007B1A2E /* Release */ = {
+		042B5C1C223E4491007B1A2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +236,7 @@
 			};
 			name = Release;
 		};
-		042B5C07223DDF62007B1A2E /* Debug */ = {
+		042B5C1E223E4491007B1A2E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -253,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		042B5C08223DDF62007B1A2E /* Release */ = {
+		042B5C1F223E4491007B1A2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -265,25 +257,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		042B5BFA223DDF62007B1A2E /* Build configuration list for PBXProject "LinkListExercises" */ = {
+		042B5C11223E4491007B1A2E /* Build configuration list for PBXProject "链表合并习题" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				042B5C04223DDF62007B1A2E /* Debug */,
-				042B5C05223DDF62007B1A2E /* Release */,
+				042B5C1B223E4491007B1A2E /* Debug */,
+				042B5C1C223E4491007B1A2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		042B5C06223DDF62007B1A2E /* Build configuration list for PBXNativeTarget "LinkListExercises" */ = {
+		042B5C1D223E4491007B1A2E /* Build configuration list for PBXNativeTarget "链表合并习题" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				042B5C07223DDF62007B1A2E /* Debug */,
-				042B5C08223DDF62007B1A2E /* Release */,
+				042B5C1E223E4491007B1A2E /* Debug */,
+				042B5C1F223E4491007B1A2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 042B5BF7223DDF62007B1A2E /* Project object */;
+	rootObject = 042B5C0E223E4491007B1A2E /* Project object */;
 }
