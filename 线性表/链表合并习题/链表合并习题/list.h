@@ -12,7 +12,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* 使用 typedef 进行简写 */
 typedef struct List List;
 
 /**
