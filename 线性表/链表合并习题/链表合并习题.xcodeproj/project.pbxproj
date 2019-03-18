@@ -29,6 +29,8 @@
 		041A1055223E614400A90651 /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
 		042B5C16223E4491007B1A2E /* 链表合并习题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "链表合并习题"; sourceTree = BUILT_PRODUCTS_DIR; };
 		042B5C19223E4491007B1A2E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		049B3888223FB8ED00667C4F /* niko-photos-333391-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "niko-photos-333391-unsplash.jpg"; sourceTree = "<group>"; };
+		049B3889223FB8FC00667C4F /* 屏幕快照 2019-03-18 18.58.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2019-03-18 18.58.10.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,8 @@
 			isa = PBXGroup;
 			children = (
 				041A1053223E611400A90651 /* 链表练习题.md */,
+				049B3888223FB8ED00667C4F /* niko-photos-333391-unsplash.jpg */,
+				049B3889223FB8FC00667C4F /* 屏幕快照 2019-03-18 18.58.10.png */,
 				042B5C18223E4491007B1A2E /* 链表合并习题 */,
 				042B5C17223E4491007B1A2E /* Products */,
 			);
