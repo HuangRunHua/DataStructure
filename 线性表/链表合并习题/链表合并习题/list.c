@@ -16,7 +16,7 @@
  */
 List* init_List(List* list_first, List* list_previous, List* list_current)
 {
-    printf("Please Enter the number of List: ");
+    printf("请输入链表集合里面元素的个数: ");
     int numberOfList_one = 0; // 链表里面的个数变量
     scanf("%d", &numberOfList_one);  // 让用户输入链表里面有多少个数字
     
@@ -35,7 +35,7 @@ List* init_List(List* list_first, List* list_previous, List* list_current)
             list_previous->next = list_current;
         }
         
-        printf("Enter the number: ");  // 让用户输入填充的数字
+        printf("请写下该链表的第%d个元素: ", i + 1);  // 让用户输入填充的数字
         scanf("%d", &list_current->number);
         
         list_current->next = NULL;
@@ -51,13 +51,14 @@ List* init_List(List* list_first, List* list_previous, List* list_current)
  */
 void print_List(List* list_first, List* list_previous, List* list_current) {
     while (list_current != NULL) {
-        printf("%d\n",list_current->number);
+        printf("%d ",list_current->number);
         list_previous = list_current;
         list_current = list_current->next;
         free(list_previous);
         list_previous = NULL;
     }
     list_first = NULL;
+    printf("\n");
     return;
 }
 
