@@ -43,9 +43,9 @@ int push(queue *sq,int value)
  */
 datatype_t pop(queue *sq)
 {
-    if(stack_empty(sq->real))
+    if(!stack_empty(sq->real))
     {
-        while(stack_empty(sq->real))
+        while(!stack_empty(sq->real))
         {
             stack_insert(sq->front,stack_out(sq->real));
         }

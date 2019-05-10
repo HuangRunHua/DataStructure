@@ -42,7 +42,7 @@ datatype_t stack_full(stack *s)
     
     if(s->top >= N - 1)
     {
-        printf("static full!\n");
+        printf("stack full!\n");
         return (datatype_t)1;
     }
     else
@@ -56,7 +56,6 @@ datatype_t stack_empty(stack *s)
 {
     if(s->top==-1)
     {
-        printf("static empty!\n");
         return (datatype_t)1;
     }
     else
